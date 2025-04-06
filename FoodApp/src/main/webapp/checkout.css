@@ -1,0 +1,132 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #fc8019; /* Swiggy's Orange */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    width: 80%;
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Order Summary */
+.order-summary {
+    background: #fff8e1; /* Light Yellow */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary h2 {
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+.order-summary ul {
+    list-style: none;
+    padding: 0;
+}
+
+.order-summary li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-summary h3 {
+    color: #ff5722;
+    text-align: right;
+    margin-top: 15px;
+}
+
+/* Customer Info Form */
+.customer-info {
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.customer-info h2 {
+    color: #1976d2;
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+label {
+    display: block;
+    font-weight: bold;
+    margin: 12px 0 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #fc8019;
+    outline: none;
+    box-shadow: 0 0 5px rgba(252, 128, 25, 0.4);
+}
+
+/* Place Order Button */
+.place-order-btn {
+    background: #fc8019;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 100%;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.place-order-btn:hover {
+    background: #e65c00;
+    transform: scale(1.02);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+        padding: 15px;
+    }
+}

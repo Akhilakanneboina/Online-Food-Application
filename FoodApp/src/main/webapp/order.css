@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #fc8019; /* Swiggy Orange */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    width: 60%;
+    max-width: 600px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Order Confirmation Page Styles */
+.confirmation p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Back to Home Button */
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background: #fc8019;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e65c00;
+    transform: scale(1.05);
+}
+
+/* Orders Page Styles */
+.orders ul {
+    list-style: none;
+    padding: 0;
+}
+
+.orders li {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Order Details Link */
+.orders a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #fc8019;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.orders a:hover {
+    background: #e65c00;
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+    }
+}

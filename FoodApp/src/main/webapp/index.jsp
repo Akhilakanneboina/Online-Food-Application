@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Food App</title>
+    <link rel="stylesheet" href="index.css">  <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Food App</h1>
+        <nav>
+            <a href="register.jsp">Register</a>
+            <a href="login.jsp">Login</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Discover Delicious Food Delivered to Your Doorstep!</h2>
+        <p>Sign up or log in to explore our restaurants and order your favorite meals.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Food App. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

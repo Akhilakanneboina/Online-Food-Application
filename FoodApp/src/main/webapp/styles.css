@@ -1,0 +1,216 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #ff6347;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header input[type="text"] {
+    margin-top: 10px;
+    padding: 8px;
+    width: 80%;
+    max-width: 400px;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Navigation Bar (for menu, cart, and checkout pages) */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #ff6347;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Restaurant List Styles (for restaurant.html) */
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.restaurant-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 15px;
+    width: 280px;
+    text-align: center;
+    padding: 15px;
+}
+
+.restaurant-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.restaurant-card h2 {
+    margin-top: 10px;
+}
+
+.restaurant-card p {
+    color: #777;
+    margin: 5px 0;
+}
+
+.restaurant-card button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Menu Page Specific Styles */
+.menu h1 {
+    text-align: center;
+    color: #ff6347;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu ul li {
+    background-color: #fff;
+    margin: 15px;
+    padding: 15px;
+    width: 280px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.menu ul li h2 {
+    margin-top: 0;
+}
+
+.menu ul li button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Cart Page Specific Styles */
+.cart h1 {
+    text-align: center;
+    color: #ff6347;
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.cart th, .cart td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.cart th {
+    background-color: #ff6347;
+    color: #fff;
+}
+
+/* Checkout Page Specific Styles */
+.checkout h1 {
+    text-align: center;
+    color: #ff6347;
+}
+
+.checkout form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.checkout form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.checkout form input,
+.checkout form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.checkout form button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
